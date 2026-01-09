@@ -18,6 +18,10 @@
   cursor: pointer;
   font-size: 16px;
   font-weight: 600;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
 }
 .btw:hover {
   background-color:#3fcd7a ;
@@ -26,13 +30,12 @@
 
 /* main code */
 header {
-  padding-top: 16px;
+  padding: 16px 120px;
 }
 nav {
   max-width: 1600px;
   display: flex;
   justify-content: space-between;
-  padding: 0px 120px;
   align-items: center;
 }
 .menu-items {
@@ -48,6 +51,71 @@ nav {
   line-height: 152%;
 }
 #banner {
-  margin: 0px;
+   background-image: url(./images/hero-bg.png);
+  width: 100%;
+  height: 674px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 115.5px;
+}
+.banner-content {
+  width: 1360px;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+}
+#banner .banner-content .early-access {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  margin: 0 auto;
+  padding: 8px 12px;
+  border-radius: 1000px;
+  background-color: white;
+  width: 229px;
+  color: #30B868;
+}
+#banner .banner-content h1 {
   padding-top: 16px;
+  font-size: 72px;
+  line-height: 84px;
+  opacity: 90%;
+}
+#banner .banner-content h1 span {
+  color: #30B868;
+}
+#banner .banner-content .text {
+  padding-top: 16px;
+  font-size: 18px;
+  line-height: 34px;
+}
+#banner .banner-content .banner-btw {
+  padding-top: 32px;
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+ 
+}
+.btw-2 {
+  padding: 12.5px 16px;
+  background-color: transparent;
+  border: 0px;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+}
+
+.circle {
+  background-color: #30B868;
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
 }
