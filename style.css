@@ -1,5 +1,53 @@
+/* shared code */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+.btw {
+  padding: 12.5px 16px;
+  background-color: #30B868;
+  border: 0px;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+}
+.btw:hover {
+  background-color:#3fcd7a ;
+}
+
+
+/* main code */
 header {
-
-    color: brown;
-
+  padding-top: 16px;
+}
+nav {
+  max-width: 1600px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 120px;
+  align-items: center;
+}
+.menu-items {
+  display: flex;
+  gap: 32px;
+  list-style: none;
+}
+.menu-items li a {
+  text-decoration: none;
+  font-size: 16px;
+  color: black;
+  opacity: 90%;
+  line-height: 152%;
+}
+#banner {
+  margin: 0px;
+  padding-top: 16px;
 }
