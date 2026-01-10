@@ -50,6 +50,8 @@ nav {
   opacity: 90%;
   line-height: 152%;
 }
+
+
 #banner {
    background-image: url(./images/hero-bg.png);
   width: 100%;
@@ -122,6 +124,9 @@ nav {
   height: 16px;
   border-radius: 8px;
 }
+
+
+
 #about {
    padding-top: 48px;
 }
@@ -182,6 +187,9 @@ nav {
   line-height: 20px;
   color: #627382;
 }
+
+
+
 #brain {
   padding-top: 120px;
 }
@@ -221,6 +229,9 @@ nav {
   font-weight: 500;
   margin-bottom: 16px;
 }
+
+
+
 #challange {
   width: 1360px;
   text-align: center;
@@ -247,6 +258,9 @@ nav {
   line-height: 24px;
   color: #627382;
 }
+
+
+
 footer {
   margin-top: 120px;
   background-color: #001931;
