@@ -67,7 +67,7 @@ nav {
 }
 #banner .banner-content .early-access {
   display: flex;
-  gap: 6px;
+  gap: 8px;
   align-items: center;
   margin: 0 auto;
   padding: 8px 12px;
@@ -118,7 +118,6 @@ nav {
 }
 
 .circle {
-  background-color: #30B868;
   width: 16px;
   height: 16px;
   border-radius: 8px;
